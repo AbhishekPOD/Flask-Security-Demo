@@ -1,0 +1,6 @@
+SQLALCHEMY_DATABASE_URI = 'sqlite:///token-auth.db'
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+SECRET_KEY = 'thisismysecretkey'
+SECURITY_PASSWORD_SALT = 'thisismypasswordsalt'
+WTF_CSRF_ENABLED = False
+SECURITY_TOKEN_AUTHENTICATION_HEADER = 'Token'
